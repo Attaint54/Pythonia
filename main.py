@@ -1,3 +1,5 @@
+import math
+
 print("Hello")
  person_Name = ("Atta")
  person_Email = ("attafake@gmail.com")
@@ -53,3 +55,34 @@ total = price*quantity
 
 print(f"you have bought {quantity}, {item}")
 print(f"total is: Rs.{total}")
+
+
+
+x = 3.16
+y = 4 
+z = 8
+
+# result = round(x)
+# result = abs(y)
+# result = max(x,z,y)
+# result = pow(y,3)
+result = min(x,z,y)
+print(result)
+x = 4.3
+
+print(math.pi)
+print(math.e)
+
+result = math.sqrt(x)
+result = math.ceil(x)
+result = math.floor(x)
+
+print(result)
+
+
+radius = float(input("Enter radius of the circle"+ " "))
+unit = input("Enter unit"+ " ")
+result = 2*math.pi*radius
+print(f"the radius is {radius}")
+
+print(f"The circumference of the circle you gave radius of is : {round(result , 2)}{unit}")
