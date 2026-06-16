@@ -47,9 +47,9 @@ print(f"area of rectangle is {area_Of_Rectangle}{unit}²")
 
 
 item =input("what do u want"+" ")
-quantity = int(input("How much do you want od it: "+" " ))
+quantity = int(input("How much do you want of it: "+" " ))
 price = float(input("what is the price:"+" "))
 total = price*quantity
 
-print(f"you habe bought {quantity}, {item}")
+print(f"you have bought {quantity}, {item}")
 print(f"total is: Rs.{total}")
