@@ -86,3 +86,66 @@ result = 2*math.pi*radius
 print(f"the radius is {radius}")
 
 print(f"The circumference of the circle you gave radius of is : {round(result , 2)}{unit}")
+
+
+
+
+
+new 
+
+
+
+a =  float(input("Enter a side A :"+ " "))
+b =  float(input("ENter a side B :"+ " "))
+
+c = math.sqrt(pow(a,2)+pow(b,2))
+
+print(f"This is the hypotenuse of the triangle {round(c,2)}")
+
+
+elif and if and else
+
+
+name = input("Enter your name moti")
+
+if name == "" :
+    print("you did not type your name moti")
+
+else:
+    print(f"SO, your name is {name} moti pucha kisne name tum se kachre se ayi hu kchri abe chl nikal moti")
+
+
+calculator
+
+operator = input("Enter an operator (+, -, / ,*)")
+
+num1 = float(input("Enter first number?" +" "))
+num2 = float(input("Enter the Second number ?" +" "))
+
+
+if operator == "+" :
+    result = num1 + num2 
+    print(f"sum of numbers is {round(result, 2)}")
+elif operator == "-" :
+    result = num1 - num2 
+    print(f"sum of numbers is {round(result, 2)}")
+elif operator == "/" :
+    result = num1 / num2 
+    print(f"sum of numbers is {round(result, 2)}")
+elif operator == "*" :
+    result = num1 * num2 
+    print(f"sum of numbers is {round(result, 2)}")
+
+else  :
+    print(f"{operator} is not an operator")
+
+
+Temperature
+
+
+user_Role = "Admin"
+age = 18
+page = "Separate level hai app ka tpo" if user_Role == "Admin" else "abe chl be"
+
+status = "Get merried  already" if age >= 18 else "Shutup you are a children"
+print (status)
