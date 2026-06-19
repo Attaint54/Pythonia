@@ -149,3 +149,13 @@ page = "Separate level hai app ka tpo" if user_Role == "Admin" else "abe chl be"
 
 status = "Get merried  already" if age >= 18 else "Shutup you are a children"
 print (status)
+
+new =15
+
+
+
+
+
+asdasdas= 1451322
+
+
